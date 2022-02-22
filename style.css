@@ -1,0 +1,144 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+/* .Container{
+background-color: hsl(216, 50%, 16%);
+width: 30%;
+margin: auto;
+align-items: center;
+text-align: center;
+} */
+.Container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 22%;
+    border-radius: 4%;
+    
+}
+.head{
+    color: white;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 4%;
+}
+.pa{
+    color:hsl(215, 51%, 70%);
+    margin-top: 4%;
+    text-align: left;
+    margin-left: 6%;
+}
+.pri{
+    color: hsl(178, 100%, 50%);
+}
+#eth{
+    width: 90%;
+
+   margin: auto;
+   margin-top: 5%;
+   border-radius: 4%;
+
+}
+.detail{
+    
+  display: flex;
+    margin: auto;
+    width: 88%;
+    margin-top: 10%;
+    /* border: 2px solid white; */
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+    position: absolute;
+    color: hsl(215, 51%, 70%);
+    right: 8%;
+}
+.empt{
+    border: 1px solid hsl(216deg 49% 25%);
+    margin-top: 5%;
+    height: 0.00001px;
+    background-color:hsl(216deg 49% 25%);
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 87%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+   
+}
+.name img{
+    width: 8%;
+    margin-left: 6%;
+}
+.name{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.one{
+    position: absolute;
+    left: 16%;
+    color: hsl(215, 51%, 70%);
+    top: 93%;
+}
+.two{
+    position: absolute;
+    /* right: 22%; */
+    color: white;
+    top: 93%;
+    margin-left: 55%;
+    cursor: pointer;
+
+}
+.two:hover{
+    color: cyan;
+}
+
+@media screen and (max-width:1024px){
+    .Container{
+        width: 30%;
+    }
+    /* .two{
+        right: 15%;
+    } */
+}
+@media screen and (max-width:768px){
+    .Container{
+        width: 60%;
+    }
+    /* .two{
+        right: 15%;
+    } */
+}
+@media screen and (max-width:425px){
+    .Container{
+        width: 90%;
+    }
+    /* .two{
+        right: 30%;
+    } */
+}
+@media screen and (max-width:375px){
+    .Container{
+        width: 90%;
+    }
+    /* .two{
+        right: 12%;
+    } */
+}
